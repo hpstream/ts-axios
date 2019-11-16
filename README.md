@@ -1,5 +1,3 @@
-# itjc8.com收集整理
-
 # ts-axios
 
 使用 TypeScript 从零实现一个 axios
@@ -14,17 +12,12 @@
 - JSON 数据的自动转换
 - 客户端防止 XSS
 
-## Usage
+# 查看关联分支
+git remote -v
 
-```javascript
-const axios = require('axios')
+# 关联分支命令
+git remove add origin xxxx
 
-axios({
-  method: 'post',
-  url: '/user/12345',
-  data: {
-    firstName: 'Yee',
-    lastName: 'Huang'
-  }
-})
-```
+# 美化提交
+git add ./
+npm run commit 
