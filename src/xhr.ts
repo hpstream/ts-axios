@@ -1,11 +1,8 @@
 import { AxiosRequestConfig } from './types/index'
 export default function xhr(config: AxiosRequestConfig): void {
-  let { url, method = 'get', params, data, headers } = config
+  let { url, method = 'get', data, headers } = config
 
   const req = new XMLHttpRequest()
-  if (method !== 'get') {
-    params = data
-  }
   req.open(method, url, true)
   Object.keys(headers).forEach(name => {
     if (data === null && name.toLowerCase() === 'content-type') {
@@ -14,5 +11,5 @@ export default function xhr(config: AxiosRequestConfig): void {
       req.setRequestHeader(name, headers[name])
     }
   })
-  req.send(JSON.stringify(params))
+  req.send(JSON.stringify(data))
 }
