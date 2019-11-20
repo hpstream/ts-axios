@@ -1,4 +1,5 @@
 {
+  "extend": ["tslint:recommended", "tslint-config-prettier"],
   "compilerOptions": {
     "moduleResolution": "node",
     "target": "es5",
