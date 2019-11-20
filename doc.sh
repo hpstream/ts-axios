@@ -5,4 +5,5 @@ set -e
 
 cd doc/ts-axios-doc
 
-npm run dev;
+# echo "第一个参数为：$1";
+npm run $1;
