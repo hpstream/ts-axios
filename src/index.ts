@@ -4,6 +4,7 @@ import xhr from './xhr'
 import { transformRequest } from './helpers/data'
 function axios(config: AxiosRequestConfig): void {
   processConfig(config)
+  handelData(config)
   xhr(config)
 }
 
