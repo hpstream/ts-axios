@@ -7,10 +7,7 @@ function axios(config: AxiosRequestConfig): void {
   handelData(config)
   xhr(config)
 }
-let s = {
-  a: 2,
-  2: 2
-}
+let s = { a: 2, 2: 2 }
 
 function processConfig(config: AxiosRequestConfig): void {
   // 处理url
