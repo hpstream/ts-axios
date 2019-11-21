@@ -1,6 +1,6 @@
 {
   "name": "ts-axios-new",
-  "version": null,
+  "version": "0.1.7",
   "description": "",
   "keywords": [],
   "main": "dist/axios.umd.js",
