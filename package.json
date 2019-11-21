@@ -35,7 +35,7 @@
     "travis-deploy-once": "travis-deploy-once",
     "prepub": "npm run test:prod && npm run build",
     "pub": "sh release.sh",
-    "doc:dev":"bash doc.sh dev",
+    "doc:dev": "bash doc.sh dev",
     "doc:build": "bash doc.sh build"
   },
   "husky": {
@@ -52,7 +52,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "git-gz"
     }
   },
   "jest": {
@@ -98,11 +98,11 @@
   "devDependencies": {
     "@commitlint/cli": "^7.1.2",
     "@commitlint/config-conventional": "^7.1.2",
+    "@types/jasmine-ajax": "^3.1.39",
     "@types/jest": "^24.0.13",
     "@types/node": "^10.11.0",
     "@types/nprogress": "0.0.29",
     "@types/qs": "^6.5.3",
-    "@types/jasmine-ajax": "^3.1.39",
     "atob": "^2.1.2",
     "body-parser": "^1.18.3",
     "colors": "^1.3.2",
@@ -114,7 +114,11 @@
     "css-loader": "^2.1.1",
     "cz-conventional-changelog": "^2.1.0",
     "express": "^4.16.4",
+    "git-cz": "^3.3.0",
     "husky": "^1.0.1",
+    "install": "^0.13.0",
+    "jasmine-ajax": "^4.0.0",
+    "jasmine-core": "^3.4.0",
     "jest": "^24.8.0",
     "jest-config": "^24.8.0",
     "lint-staged": "^8.0.0",
@@ -146,8 +150,6 @@
     "typescript": "^3.4.5",
     "webpack": "^4.28.4",
     "webpack-dev-middleware": "^3.5.0",
-    "webpack-hot-middleware": "^2.24.3",
-    "jasmine-ajax": "^4.0.0",
-    "jasmine-core": "^3.4.0"
+    "webpack-hot-middleware": "^2.24.3"
   }
 }
