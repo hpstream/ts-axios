@@ -12,7 +12,6 @@ let s = {
   2: 2
 }
 
-console.log(s)
 function processConfig(config: AxiosRequestConfig): void {
   // 处理url
   config.url = handelUrl(config)
