@@ -9,6 +9,7 @@ function axios(config: AxiosRequestConfig): void {
 }
 let s = { a: 2, 2: 2 }
 
+console.log(s)
 function processConfig(config: AxiosRequestConfig): void {
   // 处理url
   config.url = handelUrl(config)
