@@ -16,7 +16,6 @@ function processConfig(config: AxiosRequestConfig): void {
 
 function handelUrl(config: AxiosRequestConfig): string {
   let { url, params } = config
-  console.log(21296972)
   return buildUrl(url, params)
 }
 
