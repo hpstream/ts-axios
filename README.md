@@ -21,3 +21,5 @@ git remove add origin xxxx
 # 美化提交
 git add ./
 npm run commit 
+
+npm run release && npm run changelog
