@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/hpstream/ts-axios/compare/v0.2.1...v0.2.2) (2019-11-23)
+
+
+### Bug Fixes
+
+* 🐛 deletr ([66fd1ab](https://github.com/hpstream/ts-axios/commit/66fd1abe87e718ac45f2489e3006f4928c07e18c))
+
 ### [0.2.1](https://github.com/hpstream/ts-axios/compare/v0.2.0...v0.2.1) (2019-11-23)
 
 ## [0.2.0](https://github.com/hpstream/ts-axios/compare/v0.1.14...v0.2.0) (2019-11-23)
