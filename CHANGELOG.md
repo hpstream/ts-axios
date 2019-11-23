@@ -1,20 +1,12 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [0.2.6](https://github.com/hpstream/ts-axios/compare/v0.2.4...v0.2.6) (2019-11-23)
+<a name="0.2.6"></a>
+## [0.2.6](https://github.com/hpstream/ts-axios/compare/v0.2.4...v0.2.6) (2019-11-23)
 
 
 ### Features
 
-* 🎸 delete 不必要的文件 ([ce9ea77](https://github.com/hpstream/ts-axios/commit/ce9ea774783386600a29bb45e8e92e5b45bd9a96))
-
-### [0.2.5](https://github.com/hpstream/ts-axios/compare/v0.2.4...v0.2.5) (2019-11-23)
+* 🎸 delete 不必要的文件 ([ce9ea77](https://github.com/hpstream/ts-axios/commit/ce9ea77))
 
 
-### Features
-
-* 🎸 delete 不必要的文件 ([ce9ea77](https://github.com/hpstream/ts-axios/commit/ce9ea774783386600a29bb45e8e92e5b45bd9a96))
 
 <a name="0.2.4"></a>
 ## [0.2.4](https://github.com/hpstream/ts-axios/compare/v0.2.3...v0.2.4) (2019-11-23)
@@ -193,3 +185,6 @@ Closes: ad
 * 增加vuepress显示 ([38de443](https://github.com/hpstream/ts-axios/commit/38de443))
 * 增加vuepress需求文档 ([9e1e719](https://github.com/hpstream/ts-axios/commit/9e1e719))
 * **修改了readme文档:** 增加命令记录 ([e4ebdfa](https://github.com/hpstream/ts-axios/commit/e4ebdfa))
+
+
+
