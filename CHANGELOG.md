@@ -1,13 +1,12 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [0.2.7](https://github.com/hpstream/ts-axios/compare/v0.2.6...v0.2.7) (2019-11-23)
+<a name="0.2.7"></a>
+## [0.2.7](https://github.com/hpstream/ts-axios/compare/v0.2.6...v0.2.7) (2019-11-23)
 
 
 ### Features
 
-* 🎸 addd ([319b236](https://github.com/hpstream/ts-axios/commit/319b236faee0650eb2e33b36586288974a99bc23))
+* 🎸 addd ([319b236](https://github.com/hpstream/ts-axios/commit/319b236))
+
+
 
 <a name="0.2.6"></a>
 ## [0.2.6](https://github.com/hpstream/ts-axios/compare/v0.2.4...v0.2.6) (2019-11-23)
@@ -196,3 +195,6 @@ Closes: ad
 * 增加vuepress显示 ([38de443](https://github.com/hpstream/ts-axios/commit/38de443))
 * 增加vuepress需求文档 ([9e1e719](https://github.com/hpstream/ts-axios/commit/9e1e719))
 * **修改了readme文档:** 增加命令记录 ([e4ebdfa](https://github.com/hpstream/ts-axios/commit/e4ebdfa))
+
+
+
