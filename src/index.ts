@@ -11,7 +11,6 @@ function processConfig(config: AxiosRequestConfig): void {
   // 处理url
   config.url = handelUrl(config)
   config.data = handelData(config)
-  // console.log(config)
 }
 
 function handelUrl(config: AxiosRequestConfig): string {
