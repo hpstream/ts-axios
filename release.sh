@@ -17,7 +17,7 @@ then
   npm run changelog
   git add -A
   git commit -m '[build] changelog'
-  npm run gh-release
+  npm run rel
   # commit
   #git add -A
   #git commit -m "[build] $VERSION"
