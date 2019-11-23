@@ -39,7 +39,7 @@
     "doc:build": "bash doc.sh build",
     "release": "standard-version",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -p",
-    "rel": "gh-release"
+    "rel": "npm run release && npm run changelog && gh-release"
   },
   "husky": {
     "hooks": {
