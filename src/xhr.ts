@@ -5,7 +5,7 @@ export default function xhr(config: AxiosRequestConfig): void {
   const req = new XMLHttpRequest()
   req.open(method, url, true)
   Object.keys(headers).forEach(name => {
-    if (data === null && name.toLowerCase() === 'content-type') {
+    if (data === null && name.toLowerCase() === 'content-Type') {
       delete headers[name]
     } else {
       req.setRequestHeader(name, headers[name])
