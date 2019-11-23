@@ -37,7 +37,8 @@
     "pub": "sh release.sh",
     "doc:dev": "bash doc.sh dev",
     "doc:build": "bash doc.sh build",
-    "release": "standard-version"
+    "release": "standard-version",
+    "rel":"gh-release"
   },
   "husky": {
     "hooks": {
@@ -116,6 +117,7 @@
     "css-loader": "^2.1.1",
     "cz-conventional-changelog": "^2.1.0",
     "express": "^4.16.4",
+    "gh-release": "^3.5.0",
     "git-cz": "^3.3.0",
     "husky": "^1.0.1",
     "install": "^0.13.0",
