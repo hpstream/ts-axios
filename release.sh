@@ -1,10 +1,15 @@
 #!/usr/bin/env sh
 set -e
-echo "please choose argument major, minor or patch: "
+echo "please choose argument [major|minor|patch]: "
 read argument
-read -p "Releasing $argument - are you sure? (y/n)" -n 1 -r
+if [ $argument != 'major' ] && [ $argument != 'minor' ] && [ $argument != 'patch' ]
+then 
+  echo "argument $argument is not correct,you should choose [major|minor|patch]"
+  exit;
+fi
+read -p "choose $argument - are you sure? (y/n)" -n 1 -r
 echo  # (optional) move to a new line
-if [[ $REPLY =~ ^[major|minor|patch]$ ]]
+if [[ $REPLY =~ ^[yY]$ ]]
 then
   echo "Releasing $argument ..."
 

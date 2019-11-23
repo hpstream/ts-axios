@@ -1,13 +1,12 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [0.2.8](https://github.com/hpstream/ts-axios/compare/v0.2.7...v0.2.8) (2019-11-23)
+<a name="0.2.8"></a>
+## [0.2.8](https://github.com/hpstream/ts-axios/compare/v0.2.7...v0.2.8) (2019-11-23)
 
 
 ### Features
 
-* 🎸 增加发包脚本 ([11d190b](https://github.com/hpstream/ts-axios/commit/11d190b71f36c9eebb463d84799cb6365de3e5e7))
+* 🎸 增加发包脚本 ([11d190b](https://github.com/hpstream/ts-axios/commit/11d190b))
+
+
 
 <a name="0.2.7"></a>
 ## [0.2.7](https://github.com/hpstream/ts-axios/compare/v0.2.6...v0.2.7) (2019-11-23)
@@ -206,3 +205,6 @@ Closes: ad
 * 增加vuepress显示 ([38de443](https://github.com/hpstream/ts-axios/commit/38de443))
 * 增加vuepress需求文档 ([9e1e719](https://github.com/hpstream/ts-axios/commit/9e1e719))
 * **修改了readme文档:** 增加命令记录 ([e4ebdfa](https://github.com/hpstream/ts-axios/commit/e4ebdfa))
+
+
+
