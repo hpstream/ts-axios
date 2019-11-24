@@ -55,7 +55,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "conventional-changelog"
     }
   },
   "jest": {
