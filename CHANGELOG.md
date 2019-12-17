@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.24](https://github.com/hpstream/ts-axios/compare/v0.2.23...v0.2.24) (2019-12-17)
+
+
+### Bug Fixes
+
+* 🐛 修改提交脚本 ([9e16a9b](https://github.com/hpstream/ts-axios/commit/9e16a9b555a1454e552d302a2d808fe4cf7bb434))
+* 增加mkdown ([33fe44e](https://github.com/hpstream/ts-axios/commit/33fe44e9f3ce3d17f17b88ec0628cf76201da34a))
+
 ### [0.2.22](https://github.com/hpstream/ts-axios/compare/v0.2.23...v0.2.22) (2019-12-17)
 
 ### [0.2.21](https://github.com/hpstream/ts-axios/compare/v0.2.23...v0.2.21) (2019-12-17)
