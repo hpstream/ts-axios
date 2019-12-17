@@ -13,7 +13,7 @@ if [[ $REPLY =~ ^[yY]$ ]]
 then
   echo "Releasing $argument ..."
 
-  npm run release
+  npm run release $argument
   npm run changelog
   git push --follow-tags origin master
 
