@@ -41,3 +41,9 @@ conventional-changelog 工作流
 7. Tag
 8. Push
 （1）git push --follow-tags origin master
+
+```
+BREAKING CHANGE
+
+不添加  BREAKING CHANGE  有可能不能gh-release
+```
