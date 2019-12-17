@@ -17,9 +17,9 @@ then
   npm run changelog
   git push --follow-tags origin master
 
-  npm run rel
   git add -A
   git commit -m '[build] changelog'
+  npm run rel
   # commit
   #git add -A
   #git commit -m "[build] $VERSION"
