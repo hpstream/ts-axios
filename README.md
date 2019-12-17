@@ -23,3 +23,21 @@ git add ./
 npm run commit 
 
 npm run release && npm run changelog
+
+
+conventional-changelog 工作流
+1. Make changes
+2. Commit those changes
+（1）git add . 
+（2）git cz
+3. Make sure Travis turns green
+4. Bump version in package.json
+（3）npm run release -m "chore(release): %s" -r minor
+5. conventionalChangelog
+（1）conventional-changelog -i CHANGELOG.md -s -p
+6. Commit package.json and CHANGELOG.md files
+（1）git add .
+（2）git commit -m "docs(CHANGELOG): $version"
+7. Tag
+8. Push
+（1）git push --follow-tags origin master
