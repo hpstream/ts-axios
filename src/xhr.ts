@@ -11,5 +11,6 @@ export default function xhr(config: AxiosRequestConfig): void {
       req.setRequestHeader(name, headers[name])
     }
   })
+
   req.send(JSON.stringify(data))
 }
