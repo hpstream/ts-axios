@@ -14,7 +14,7 @@ then
   echo "Releasing $argument ..."
 
   npm run release  -- --release-as  $argument
-  npm run changelog
+  # npm run changelog
   git push --follow-tags origin master
 
   git add -A
