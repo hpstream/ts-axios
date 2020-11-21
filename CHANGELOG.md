@@ -1,19 +1,20 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [0.5.1](https://github.com/hpstream/ts-axios/compare/v0.5.0...v0.5.1) (2020-11-21)
-
-## [0.5.0](https://github.com/hpstream/ts-axios/compare/v0.4.15...v0.5.0) (2020-11-21)
+## [0.5.1](https://github.com/hpstream/ts-axios/compare/v0.5.0...v0.5.1) (2020-11-21)
 
 
-### ⚠ BREAKING CHANGES
 
-* no
+# [0.5.0](https://github.com/hpstream/ts-axios/compare/v0.4.15...v0.5.0) (2020-11-21)
+
 
 ### Features
 
 * 🎸 我来测试啦 ([0e3ffbf](https://github.com/hpstream/ts-axios/commit/0e3ffbfd6266f14f8d0c201af7a43e6fddfe773f)), closes [#444](https://github.com/hpstream/ts-axios/issues/444)
+
+
+### BREAKING CHANGES
+
+* no
+
+
 
 ## [0.4.15](https://github.com/hpstream/ts-axios/compare/v0.4.14...v0.4.15) (2020-03-17)
 
@@ -426,3 +427,6 @@ Closes: ad
 * 增加vuepress显示 ([38de443](https://github.com/hpstream/ts-axios/commit/38de44306e66f1c07a533d98700afecbc954c2cd))
 * 增加vuepress需求文档 ([9e1e719](https://github.com/hpstream/ts-axios/commit/9e1e71945d5e6c624f0de3b1973ab493526bb598))
 * **修改了readme文档:** 增加命令记录 ([e4ebdfa](https://github.com/hpstream/ts-axios/commit/e4ebdfac25fbc01cb131a3d19118006a5f700223))
+
+
+
