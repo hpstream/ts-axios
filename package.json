@@ -1,6 +1,6 @@
 {
   "name": "ts-axios-new",
-  "version": "0.6.2",
+  "version": "0.6.0",
   "description": "",
   "keywords": [],
   "main": "dist/axios.umd.js",
@@ -38,7 +38,7 @@
     "doc:dev": "bash doc.sh dev",
     "doc:build": "bash doc.sh build",
     "release": "standard-version",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "rel": "gh-release"
   },
   "husky": {
