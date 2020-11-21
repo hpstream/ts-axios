@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/hpstream/ts-axios/compare/v0.5.2...v0.6.0) (2020-11-21)
+
+
+### Features
+
+* 在测试一遍 ([e7a0aac](https://github.com/hpstream/ts-axios/commit/e7a0aac7f41e49d0476d3c2351c95e738dc01054))
+
 ## [0.5.1](https://github.com/hpstream/ts-axios/compare/v0.5.2...v0.5.1) (2020-11-21)
 
 
