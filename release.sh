@@ -18,8 +18,8 @@ then
   git push --follow-tags origin master
 
   # npm run rel
-  git add -A
-  git commit -m '[build] changelog'
+  # git add -A
+  # git commit -m '[build] changelog'
   # commit
   #git add -A
   #git commit -m "[build] $VERSION"
