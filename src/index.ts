@@ -24,8 +24,8 @@ function handelData(config: AxiosRequestConfig): string {
   return transformRequest(config.data)
 }
 
-function transformHeaders(config: AxiosRequestConfig): Record<string, any> {
-  const { headers = {}, data } = config
+function transformHeaders(config1: AxiosRequestConfig): Record<string, any> {
+  const { headers = {}, data } = config1
   return processHeaders(headers, data)
 }
 export default axios
